@@ -129,11 +129,13 @@
     <div class="wrap story-grid">
       <div class="story-portrait">
         <div class="portrait-frame">
-          <!-- PLACEHOLDER: real photo of Prabhleen. Replace this block with an <img> once photography is available. Suggested crop: portrait, 4:5. -->
-          <div class="portrait-placeholder" role="img" aria-label="Placeholder for a photograph of Prabhleen, founder of House of French">
-            <span>Photo of Prabhleen</span>
-            <span class="portrait-placeholder-note">to be added</span>
-          </div>
+          <img
+            src="assets/img/founder-900.jpg"
+            srcset="assets/img/founder-600.jpg 600w, assets/img/founder-900.jpg 900w"
+            sizes="(min-width: 900px) 40vw, 90vw"
+            width="900" height="1200"
+            alt="Prabhleen smiling, standing in front of a brick wall"
+            loading="lazy" decoding="async" />
         </div>
         <p class="portrait-caption">Prabhleen, founder of House of French</p>
       </div>
