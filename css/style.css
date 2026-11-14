@@ -681,7 +681,7 @@ section { padding-block: var(--space-8); }
    Contact
    ============================================================ */
 .contact { background: var(--color-surface); }
-.contact-inner { max-width: 640px; }
+.contact-inner { max-width: 860px; }
 .contact-lede { margin-top: var(--space-4); color: var(--color-ink-soft); }
 
 .contact-tiles {
@@ -718,6 +718,10 @@ section { padding-block: var(--space-8); }
 
 @media (min-width: 640px) {
   .contact-tiles { grid-template-columns: 1fr 1fr; }
+}
+
+@media (min-width: 900px) {
+  .contact-tiles { grid-template-columns: repeat(3, 1fr); }
 }
 
 /* ============================================================
